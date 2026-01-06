@@ -1,0 +1,81 @@
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="container">
+      <nav>
+        <h2>TaskLink</h2>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#how">How It Works</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+        <a href="#services" class="btn-primary">See Experts</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="heero">
+    <h1>Find Skilled Experts & Services Instantly</h1>
+    <p>TaskLink connects you with verified experts across multiple fields.</p>
+    <a href="#services" class="btn-primary">See Available Experts</a>
+  </section>
+
+  <!-- About -->
+  <section id="about">
+    <div class="container">
+      <h2>Who We Are</h2>
+      <p style="text-align:center;">TaskLink is a service directory helping clients find verified experts.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services">
+    <div class="container">
+      <h2>Service Categories</h2>
+
+      <div class="services">
+        <div class="service-card" onclick="showProfessionals('Home & Maintenance')">
+          <i class="fas fa-home"></i>
+          <h3>Home & Maintenance</h3>
+          <p>Cleaners, carpenters, painters, movers.</p>
+        </div>
+
+        <div class="service-card" onclick="showProfessionals('Technology Services')">
+          <i class="fas fa-laptop-code"></i>
+          <h3>Technology Services</h3>
+          <p>Web developers, designers, IT support.</p>
+        </div>
+
+        <!-- other service cards -->
+      </div>
+
+      <div class="professionals" id="professionalsContainer"></div>
+    </div>
+  </section>
+
+  <!-- How It Works -->
+  <section id="how">
+    <div class="container">
+      <h2>How TaskLink Works</h2>
+      <div class="steps">
+        <div class="step"><i class="fas fa-search"></i><h4>Choose Category</h4></div>
+        <div class="step"><i class="fas fa-phone"></i><h4>Contact Directly</h4></div>
+        <div class="step"><i class="fas fa-check-circle"></i><h4>Get Service</h4></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact">
+    <div class="container contact">
+      <h2>Get in Touch</h2>
+      <a href="tel:03287602950">Call Us</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 TaskLink – All Rights Reserved</p>
+  </footer>
